@@ -14,7 +14,7 @@ import { Component, Input } from '@angular/core';
       </div>
     </div>
   `,
-  styleUrls: [ '../styles/event-thumbnail.scss' ],
+  styleUrls: [ './event-thumbnail.scss' ],
 })
 
 export class EventThumbnailComponent {
