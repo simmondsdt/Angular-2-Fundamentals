@@ -11,6 +11,7 @@ import { NavBarComponent } from './nav/navbar.component';
 import { EventListComponent } from './events/events-list.component';
 import { EventThumbnailComponent } from './events/event-thumbnail.component';
 import { EventDetailsComponent } from './events/event-details/event-details.component';
+import { CreateEventComponent } from './events/create-event.component';
 
 import { EventService } from './events/shared/event.service';
 import { ToastrService } from './common/toastr.service';
@@ -22,6 +23,7 @@ import { ToastrService } from './common/toastr.service';
 		EventListComponent,
 		EventThumbnailComponent,
 		EventDetailsComponent,
+		CreateEventComponent,
 	],
 	imports: [
 		BrowserModule,
