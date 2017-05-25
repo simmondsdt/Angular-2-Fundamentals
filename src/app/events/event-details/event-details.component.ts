@@ -3,7 +3,7 @@ import { EventService } from '../shared/event.service';
 
 @Component({
 	templateUrl: './event-details.component.html',
-	styleUrls: ['./event-details.scss'],
+	styleUrls: ['../../styles/event-details.scss'],
 })
 
 export class EventDetailsComponent {

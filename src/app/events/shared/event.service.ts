@@ -10,7 +10,6 @@ export class EventService {
 	}
 }
 
-
 const EVENTS = [
 	{
 		id: 1,

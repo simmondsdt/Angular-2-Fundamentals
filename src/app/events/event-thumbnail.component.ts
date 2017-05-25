@@ -22,7 +22,7 @@ import { Component, Input } from '@angular/core';
 		</div>
 	</div>
 	`,
-	styleUrls: [ './event-thumbnail.scss' ],
+	styleUrls: [ '../styles/event-thumbnail.scss' ],
 })
 
 export class EventThumbnailComponent {
