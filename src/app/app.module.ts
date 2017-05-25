@@ -39,10 +39,20 @@ import { EventRouteActivator } from './events/event-details/event-route-activato
 		EventService,
 		ToastrService,
 		EventRouteActivator,
+		{
+			provide: 'canDeactivateCreateEvent',
+			useValue: checkDirtyState
+		},
 	],
 	bootstrap: [
 		AppComponent,
 	]
 })
 
-export class AppModule { }
+export class AppModule {}
+
+function checkDirtyState(component:CreateEventComponent) {
+	if (component.isDirty)
+		return window.confirm('You have not saved, do you really want to cancel?')
+	return true
+}
