@@ -5,8 +5,10 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+
 import { appRoutes } from './routes';
 import { NavBarComponent } from './nav/navbar.component';
+import { Error404Component } from './errors/404.component';
 
 import { EventListComponent } from './events/events-list.component';
 import { EventThumbnailComponent } from './events/event-thumbnail.component';
@@ -20,6 +22,7 @@ import { ToastrService } from './common/toastr.service';
 	declarations: [
 		AppComponent,
 		NavBarComponent,
+		Error404Component,
 		EventListComponent,
 		EventThumbnailComponent,
 		EventDetailsComponent,
