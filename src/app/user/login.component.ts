@@ -4,6 +4,7 @@ import { AuthService } from './auth.service';
 
 @Component({
 	templateUrl: './login.component.html',
+	styleUrls: ['../styles/login.scss'],
 })
 
 export class LoginComponent{
