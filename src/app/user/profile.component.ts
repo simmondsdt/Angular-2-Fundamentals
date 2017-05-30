@@ -5,7 +5,7 @@ import { AuthService } from './auth.service';
 
 @Component({
 	templateUrl: './profile.component.html',
-	styleUrls: ['../styles/profile.scss'],
+	styleUrls: ['../styles/form-errors.scss'],
 })
 
 export class ProfileComponent implements OnInit {
