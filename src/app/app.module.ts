@@ -21,6 +21,7 @@ import {
 	EventService,
 	EventRouteActivator,
 	EventListResolver,
+	CreateSessionComponent,
 } from './events/index'
 
 
@@ -33,6 +34,7 @@ import {
 		EventThumbnailComponent,
 		EventDetailsComponent,
 		CreateEventComponent,
+		CreateSessionComponent,
 	],
 	imports: [
 		BrowserModule,
