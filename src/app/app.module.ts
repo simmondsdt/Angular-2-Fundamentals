@@ -22,6 +22,7 @@ import {
 	EventRouteActivator,
 	EventListResolver,
 	CreateSessionComponent,
+	SessionListComponent,
 } from './events/index'
 
 
@@ -35,6 +36,7 @@ import {
 		EventDetailsComponent,
 		CreateEventComponent,
 		CreateSessionComponent,
+		SessionListComponent,
 	],
 	imports: [
 		BrowserModule,
