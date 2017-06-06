@@ -9,8 +9,9 @@ import { IEvent, ISession } from '../shared/index';
 })
 
 export class EventDetailsComponent {
-	event:IEvent
-	addMode:boolean
+	event:IEvent;
+	addMode:boolean;
+	filterBy:string = 'all';
 
 	constructor(
 		private eventService:EventService,
@@ -22,7 +23,7 @@ export class EventDetailsComponent {
 			+this.route.snapshot.params['id']
 		)
 	}
-
+	
 	addSession() {
 		this.addMode = true
 	}
