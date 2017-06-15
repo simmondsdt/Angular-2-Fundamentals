@@ -32,6 +32,7 @@ import {
 	SessionListComponent,
 	UpvoteComponent,
 	VoterService,
+	LocationValidator,
 	DurationPipe,
 } from './events/index';
 
@@ -53,6 +54,7 @@ declare let jQuery : Object;
 		SimpleModalComponent,
 		UpvoteComponent,
 		ModalTriggerDirective,
+		LocationValidator,
 		DurationPipe,
 	],
 	imports: [
